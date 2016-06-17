@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+
+
+.pg_ttl_1{ margin: 5px auto; font-weight:bold; font-size:16px;}
+#grey{color:#666;}
+
+#menu .index_item{font-family:"Bebas"; letter-spacing:0.3em;}
+#menu .page_item, #menu .index_item{display: inline-block; float:none; background-color:#000; color:#fff;}
+#menu .page_item:hover, #menu .index_item:hover{background-color:#fff; color:#000;}
+
+
+
+
+/* Mobile Layout: 480px and below. */
+@media only screen and (max-width: 480px) {
+	h1{ font-family:"pt_sans"; font-size:34px; color:#000; margin:20px auto auto;}
+	h2{ font-family:"webly"; font-size:25px; font-weight:bold; margin:3px;}
+	h3{ font-family:"pt_sans"; font-size:20px; margin:3px;}
+	h4{ font-family:"webly"; font-size:20px; font-weight:bold; margin:3px;}
+	h5{ font-family:"webly"; font-size:25px; font-weight:bold; margin:3px;}
+	h6{ font-family:"type_extra"; font-size:30px; font-weight:bold; margin:10px auto;}
+	
+	#menu .index_item{ padding:5px 50px 5px 10px; margin: 5px 0; font-size:15px;}
+	#menu .page_item{  padding:5px 10px; margin: 5px 0; font-size:13px;}
+	#index_bg{width:100%; padding:5px 0; min-height:85%; background:url('/nagi_mobile.jpg'); background-repeat:no-repeat; background-size:cover; background-position:top right; margin:5px auto;}
+	
+	#prettylips{font-family:"handwritten"; font-size:50px; color:#FFF; text-shadow:1px 1px #000;}
+	#maintenant{font-family:"Bebas"; font-size:20px; color:#FFF; text-shadow:1px 1px #000;}
+	.address{font-family:"Bebas"; font-size:15px; color:#fff; text-shadow: none;}
+
+}
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+	h1{ font-family:"pt_sans"; font-size:35px; color:#999; margin:3px;}
+	h2{ font-family:"webly"; font-size:25px; font-weight:bold; margin:3px;}
+	h3{ font-family:"pt_sans"; font-size:25px; margin:3px;}
+	h4{ font-family:"webly"; font-size:22px; font-weight:bold; margin:3px;}
+	h5{ font-family:"webly"; font-size:20px; font-weight:bold; margin:3px;}
+	h6{ font-family:"type_extra"; font-size:40px; font-weight:bold; margin:10px auto 5px;}
+	
+	#menu .index_item{ padding:10px 70px 10px 15px; margin: 10px 0; font-size:20px;}
+	#menu .page_item{ padding:10px 15px; margin: 10px 0; font-size:13px;}
+	#index_bg{width:100%; padding:5px 0; min-height:70%; background:url('/nagi_tablet.jpg'); background-repeat:no-repeat; background-size:cover; background-position:top right; margin:5px auto;}
+	
+	#prettylips{font-family:"handwritten"; font-size:70px; color:#fff; text-shadow:2px 2px #000;}
+	#maintenant{font-family:"Bebas"; font-size:20px; color:#000;}
+	.address{font-family:"Bebas"; font-size:20px; color:#fff; text-shadow: none; text-shadow:1px 1px #000;}
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+	h1{ font-family:"pt_sans"; font-size:40px; color:#999; margin:3px;}
+	h2{ font-family:"webly"; font-size:30px; font-weight:bold; margin:3px;}
+	h3{ font-family:"pt_sans"; font-size:30px; margin:3px;}
+	h4{ font-family:"webly"; font-size:26px; font-weight:bold; margin:3px;}
+	h5{ font-family:"webly"; font-size:23px; font-weight:bold; margin:3px;}
+	h6{ font-family:"type_extra"; font-size:50px; font-weight:bold; margin:20px auto 10px;}
+	
+	#menu .index_item{ padding:15px 100px 15px 20px; margin: 5px 0; font-size:22px;}
+	#menu .page_item{ padding:10px 30px; margin: 10px 0; font-size:15px;}
+	#index_bg{width:100%; padding:5px 0; min-height:67%; background:url('/nagi2.jpg'); background-repeat:no-repeat; background-size:cover; background-position:top right; margin:5px auto;}
+	
+	#prettylips{font-family:"handwritten"; font-size:100px; color:#000; text-shadow: none;}
+	#maintenant{font-family:"Bebas"; font-size:30px; color:#000; text-shadow: none;}
+	.address{font-family:"Bebas"; font-size:20px; color:#000; text-shadow: none;}
+
+}
+
+
+.text{font-size:14px; color:#333; line-height:20px;}
+
+.webly{font-family:'webly'; letter-spacing:1px;}
+
+.get_title{ font-family:"webly"; font-size:18px; font-weight:bold; margin:3px;}
+
+.error_message{width:auto; margin:5px; border:#F00 solid 1px; font-size:14px; background-color:#ddd; text-align:center; padding:5px; color:#F00;}
+.success_message{width:auto; margin:5px; border:#076000 solid 1px; font-size:14px; background-color:#A6F4A7; text-align:center; padding:5px; color:#076000;}
+
+
+@font-face {
+    font-family:"handwritten";
+    src: url("/fonts/comesinhandy.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"Futura";
+    src: url("/fonts/Futura Book Font/Futura-T-OT-Book_19064.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family:"comfortaa_b";
+    src: url("/fonts/comfortaa/Comfortaa-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"comfortaa_r";
+    src: url("/fonts/comfortaa/Comfortaa-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"comfortaa_l";
+    src: url("/fonts/comfortaa/Comfortaa-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"champagne";
+    src: url("/fonts/champagne_limo/Champagne & Limousines.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"webly";
+    src: url("/fonts/weblysleek/weblysleekuil.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"webserver";
+    src: url("/fonts/web_serveroff/Web Serveroff.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"menu_font";
+    src: url("/fonts/BebasNeue-webfont.ttf") format("truetype");
+}
+
+@font-face{
+	font-family:"type_ultralight";
+    src: url("/fonts/TYPOGRAPH PRO Ultra Light.ttf") format("truetype");
+}
+
+@font-face{
+	font-family:"type_light";
+    src: url("/fonts/TYPOGRAPH PRO Light.ttf") format("truetype");
+}
+
+@font-face{
+	font-family:"type_extra";
+    src: url("/fonts/TYPOGRAPH PRO Extra Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"Bebas";
+    src: url("/fonts/BebasNeue-webfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"pt_sans";
+    src: url("/fonts/pt_sans/PTN57F-webfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"pts55f";
+    src: url("/fonts/pt_sans/PTS55F-webfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"ostrich_sans";
+    src: url("/fonts/ostrich_sans/ostrich-rounded-webfont.ttf") format("truetype");
+}
+/* Custom Fonts END */

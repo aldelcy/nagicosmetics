@@ -1,0 +1,2 @@
+class PrdfamiliesController < ApplicationController
+end

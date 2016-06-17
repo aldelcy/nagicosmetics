@@ -5,6 +5,7 @@ gem 'pg'
 gem 'font-awesome-sass'
 gem 'carrierwave'
 gem 'geokit-rails'
+gem 'devise'
 
 gem 'sprockets', '>= 3.0.0'
 gem 'sprockets-es6'
@@ -35,7 +36,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'devise'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem 'rails_12factor', group: :production
 

@@ -1,0 +1,24 @@
+<center>
+<div class="nav">
+	<% @main_nav.each do |nav, value| %>
+		<div class="item <%= nav %>">
+		<a href="/<%= nav %>"><div class="link_nav"><%= nav.capitalize %></div></a>
+		
+			<%if value %>
+				<div class="sub_nav <%= nav %>_sub">
+					<% value.each do |subnav, val| %>
+						<a href="<%= '/store/categories/'+subnav.shortname %>"><div class="sub_item"><%= subnav.name %></div></a>
+					<%end%>	
+				</div>
+				<script type="text/javascript">
+					$('.<%= nav %>').hover(function(event){
+						$('.<%= nav %>_sub').fadeToggle(200);
+					});
+				</script>	
+			<%end%>
+
+		</div>
+
+	<%end%>
+</div>
+</center>
